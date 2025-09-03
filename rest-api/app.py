@@ -7,6 +7,11 @@ from flask_restful import Resource, Api
 from pathlib import Path
 
 
+print(f"[env] AUDIT_DEV: {os.getenv('AUDIT_DEV', 'None')}")
+print(f"[env] SHARED: {os.getenv('SHARED', 'None')}")
+print(f"[env] AUDIT_HTTP_PROXY: {os.getenv('AUDIT_HTTP_PROXY', 'None')}")
+print(f"[env] AUDIT_HTTPS_PROXY: {os.getenv('AUDIT_HTTPS_PROXY', 'None')}")
+
 ROOT_DIR = Path(__file__).resolve().parent
 CONSTANT_PATH = ROOT_DIR / "data" / "constant"
 OPENDATA_DETAILS = CONSTANT_PATH / "opendata-swiss-details.json"
@@ -16,6 +21,11 @@ INPUT = Path(
     if os.getenv("AUDIT_DEV") == "1"
     else Path(os.getenv("SHARED", "/shared/"))
 )
+if os.getenv("AUDIT_DEV") == "1":
+    print(f"Input data path (dev mode): {INPUT}\n")
+else:
+    print(f"Input data path (shared): {INPUT}\n")
+
 INPUT_ORG_AUDIT = INPUT / "audit_organisation.json"
 INPUT_TOTAL_AUDIT = INPUT / "audit_total.json"
 DETAILED_LIST = INPUT / "detailed_organisation_list.json"
@@ -27,10 +37,6 @@ PROXY = {
     "http": os.getenv("AUDIT_HTTP_PROXY", None),
     "https": os.getenv("AUDIT_HTTPS_PROXY", None),
 }
-print(f"[env] AUDIT_DEV: {os.getenv('AUDIT_DEV', 'None')}")
-print(f"[env] SHARED: {os.getenv('SHARED', 'None')}")
-print(f"[env] AUDIT_HTTP_PROXY: {os.getenv('AUDIT_HTTP_PROXY', 'None')}")
-print(f"[env] AUDIT_HTTPS_PROXY: {os.getenv('AUDIT_HTTPS_PROXY', 'None')}")
 
 app = Flask(__name__)
 api = Api(app)
