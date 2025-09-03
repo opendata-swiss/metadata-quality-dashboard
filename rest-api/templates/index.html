@@ -315,7 +315,7 @@
                 </tr>
                 <tr>
                     <td>
-                        data-loader/version</br>
+                        /data-loader/version</br>
                         /version (legacy)
                     </td>
                     <td>Return the current data-loader version.</td>
@@ -327,12 +327,22 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>api/version</td>
+                    <td>/api/version</td>
                     <td>Return the current api version.</td>
                     <td class="code-sample"><pre>
 {
     "version": 1.0,
     "version_last_update": "03.09.2025"
+}                     </pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>/api/status</td>
+                    <td>Return the status of the api.</td>
+                    <td class="code-sample"><pre>
+{
+    "status": "OK",
+    "last_update": "03.09.2025"
 }                     </pre>
                     </td>
                 </tr>
