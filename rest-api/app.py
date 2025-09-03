@@ -12,6 +12,9 @@ print(f"[env] SHARED: {os.getenv('SHARED', 'None')}")
 print(f"[env] AUDIT_HTTP_PROXY: {os.getenv('AUDIT_HTTP_PROXY', 'None')}")
 print(f"[env] AUDIT_HTTPS_PROXY: {os.getenv('AUDIT_HTTPS_PROXY', 'None')}")
 
+VERSION_API = 1.0
+VERSION_API_LAST_UPDATE = "03.09.2025"
+
 ROOT_DIR = Path(__file__).resolve().parent
 CONSTANT_PATH = ROOT_DIR / "data" / "constant"
 OPENDATA_DETAILS = CONSTANT_PATH / "opendata-swiss-details.json"
@@ -91,11 +94,14 @@ class OrganisationInteroperability(Resource):
 class OrganisationInteroperability(Resource):
     def get(self, id): return get_category(id, "interoperability")
 
-class Status(Resource):
-    def get(self): return status()
+class DataLoaderStatus(Resource):
+    def get(self): return {key:val for key,val in status().items() if key not in ("version", "version_last_update")}
 
-class Version(Resource):
+class DataLoaderVersion(Resource):
     def get(self): return {key:val for key,val in status().items() if key in ("version", "version_last_update")}
+
+class ApiVersion(Resource):
+    def get(self): return version_api()
 
 @app.route("/")
 def index(): return render_template("index.html")
@@ -111,8 +117,15 @@ api.add_resource(OrganisationAccessibility, "/organisation/<string:id>/accessibi
 api.add_resource(OrganisationReusability, "/organisation/<string:id>/reusability")
 api.add_resource(OrganisationContextuality, "/organisation/<string:id>/contextuality")
 api.add_resource(OrganisationInteroperability, "/organisation/<string:id>/interoperability")  # fmt: skip
-api.add_resource(Status, "/status")
-api.add_resource(Version, "/version")
+
+api.add_resource(ApiVersion, "/api/version")
+api.add_resource(DataLoaderVersion, "/data-loader/version", endpoint="version")
+api.add_resource(DataLoaderStatus, "/data-loader/status", endpoint="status")
+
+
+# Kept for retro-compatiblity (v0.8 → v1.0).
+api.add_resource(DataLoaderVersion, "/version", endpoint="version_legacy")
+api.add_resource(DataLoaderStatus, "/status", endpoint="status_legacy")
 
 
 def deserialize(filepath=INPUT_ORG_AUDIT):
@@ -191,13 +204,20 @@ def status():
     """ Return the data-loader status. """
     data = deserialize(STATUS)
     last_update = data.get("last_update")
-
     if last_update:
         update_date = datetime.strptime(last_update, "%d.%m.%Y").date()
         if update_date + timedelta(days=3) < date.today():
             data["status"] = "OUTDATED"
 
     return data
+
+
+def version_api():
+    """ Return the api version. """
+    return {
+        "version": VERSION_API,
+        "version_last_update": VERSION_API_LAST_UPDATE
+    }
 
 
 if __name__ == "__main__":
