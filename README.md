@@ -29,8 +29,8 @@ The system was developed to address inconsistencies in open data metadata and en
 
 ## Technologies
 * Python 3.9.7 – For dependencies, read the per-project requirements.txt files.
-    * [data-loader/requirement.txt](./data-updater/requirements.txt)
-    * [rest-api/requirement.txt](./data-updater/requirements.txt)
+    * [data-loader/requirement.txt](./data-loader/requirements.txt)
+    * [rest-api/requirement.txt](./data-loader/requirements.txt)
 * Docker – Containerization to isolate and deploy each sub-project consistently.
 * Git + Bitbucket – Source control and hosting
 

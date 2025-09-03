@@ -1,8 +1,8 @@
 # Environment Variables
 
-## Data Updater
+## Data Loader
 * **AUDIT_DEV**: For development mode, set to `1`.  
-  When set to `1`, the Data Updater uses predefined local output folders instead of the `SHARED` environment variable.
+  When set to `1`, the Data Loader uses predefined local output folders instead of the `SHARED` environment variable.
 * **SHARED**: Output folder path used in production (e.g., inside a Docker container).  
   Defaults to `/shared/` if not set.
 * **AUDIT_HTTP_PROXY**: Optional HTTP proxy address.

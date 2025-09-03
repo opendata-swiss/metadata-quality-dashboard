@@ -5,14 +5,17 @@ FROM python:3.9-alpine
 # To override this path, set the ENV_SHARED variable.
 
 # Copy Filesystem.
-WORKDIR /app/rest-api
+WORKDIR /app/data-loader
 COPY . .
 
-# Install Requirements.
+# Install requirements.
 COPY requirements.txt requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Run the API.
-EXPOSE 8080
-CMD ["gunicorn", "-b", "0.0.0.0:8080", "app:app"]
+COPY crontab.txt crontab.txt
+RUN crontab crontab.txt
+
+# Run Scheduler in foreground.
+# Logs are written to stdout/stderr and can be accessed via Docker logs.
+CMD ["crond", "-f"]
 

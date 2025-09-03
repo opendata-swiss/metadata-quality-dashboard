@@ -1,7 +1,7 @@
 import requests
 import warnings
 
-from data_updater.audit.utils import DATASET
+from data_loader.audit.utils import DATASET
 
 
 # TODO setup the authentification (verify=Very.certificates(url...))

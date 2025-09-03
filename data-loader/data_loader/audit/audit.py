@@ -1,13 +1,13 @@
 import asyncio
 from typing import Any, Union
 
-from data_updater.audit.findability import audit_findability
-from data_updater.audit.accessibility import audit_accessibility
-from data_updater.audit.reusability import audit_reusability
-from data_updater.audit.contextuality import audit_contextuality
-from data_updater.audit.interoperability import audit_interoperability
-from data_updater.audit.utils import get_distributions
-from data_updater.audit.scoring import add_score
+from data_loader.audit.findability import audit_findability
+from data_loader.audit.accessibility import audit_accessibility
+from data_loader.audit.reusability import audit_reusability
+from data_loader.audit.contextuality import audit_contextuality
+from data_loader.audit.interoperability import audit_interoperability
+from data_loader.audit.utils import get_distributions
+from data_loader.audit.scoring import add_score
 
 VALUE = "@value"
 IDENTIFIER = "http://purl.org/dc/terms/identifier"

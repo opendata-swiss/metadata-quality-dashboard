@@ -1,11 +1,11 @@
 # Run Locally
-This document explains how to run the **Data Updater** and **Rest API** locally for development purposes.
+This document explains how to run the **Data Loader** and **Rest API** locally for development purposes.
 
-## Data Updater
+## Data Loader
 
 1. Install the required Python packages:
    ```bash
-   pip install --no-cache-dir -r data-updater/requirements.txt
+   pip install --no-cache-dir -r data-loader/requirements.txt
    ```
    
 2. Set the development mode environment variable:
@@ -22,7 +22,7 @@ This document explains how to run the **Data Updater** and **Rest API** locally 
 
 3. Run the script
     ```bash
-    python data-updater/main.py
+    python data-loader/main.py
     ```
     **OUTPUT:**
     ```bash
@@ -30,13 +30,13 @@ This document explains how to run the **Data Updater** and **Rest API** locally 
     11:31:36 INFO: [env] SHARED: None
     11:31:36 INFO: [env] AUDIT_HTTP_PROXY: http://proxy-bvcol.admin.ch:8080
     11:31:36 INFO: [env] AUDIT_HTTPS_PROXY: http://proxy-bvcol.admin.ch:8080
-    11:31:36 INFO: Output folder: C:\Users\U80875594\Documents\Code\Python\metadata-quality-audit\data-updater\data\output
+    11:31:36 INFO: Output folder: C:\Users\U80875594\Documents\Code\Python\metadata-quality-audit\data-loader\data\output
     ...
     ```
 
 4. Notice the data saved in 
     ```bash
-    data-updater\data\output
+    data-loader\data\output
     ```
 
 

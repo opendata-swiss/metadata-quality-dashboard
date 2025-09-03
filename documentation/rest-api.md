@@ -14,4 +14,4 @@
 | `/organisation/<identifier>/contextuality`    | Contextuality audit and score.                                                               |
 | `/organisation/<identifier>/interoperability` | Interoperability audit and score.                                                            |
 | `/status`                                     | Status of latest audit (OK/failure, date, version info).                                     |
-| `/version`                                    | Current data-updater version and date of last update.                                        |
+| `/version`                                    | Current data-loader version and date of last update.                                        |
