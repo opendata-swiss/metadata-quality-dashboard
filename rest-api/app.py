@@ -103,6 +103,11 @@ class DataLoaderVersion(Resource):
 class ApiVersion(Resource):
     def get(self): return version_api()
 
+
+class ApiStatus(Resource):
+    def get(self): return {"status": "OK", "last_update": datetime.now().date().strftime("%d.%m.%Y")}
+
+
 @app.route("/")
 def index(): return render_template("index.html")
 # fmt: on
@@ -119,6 +124,7 @@ api.add_resource(OrganisationContextuality, "/organisation/<string:id>/contextua
 api.add_resource(OrganisationInteroperability, "/organisation/<string:id>/interoperability")  # fmt: skip
 
 api.add_resource(ApiVersion, "/api/version")
+api.add_resource(ApiStatus, "/api/status")
 api.add_resource(DataLoaderVersion, "/data-loader/version", endpoint="version")
 api.add_resource(DataLoaderStatus, "/data-loader/status", endpoint="status")
 
