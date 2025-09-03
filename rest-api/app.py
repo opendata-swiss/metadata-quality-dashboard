@@ -188,14 +188,14 @@ def format_yesno(value_yes):
 
 
 def status():
-    """ Return the most recent audit update time. """
+    """ Return the data-loader status. """
     data = deserialize(STATUS)
     last_update = data.get("last_update")
 
     if last_update:
         update_date = datetime.strptime(last_update, "%d.%m.%Y").date()
         if update_date + timedelta(days=3) < date.today():
-            status["status"] = "OUTDATED"
+            data["status"] = "OUTDATED"
 
     return data
 
