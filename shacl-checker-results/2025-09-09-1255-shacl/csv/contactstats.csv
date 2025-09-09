@@ -1,0 +1,34 @@
+organization_name,pkg_type,error_count,contact_emails
+abteilung-uebertragbare-krankheiten,dcat,2,anne.laube@bag.admin.ch idd@bag.admin.ch
+afm-kanton-zuerich,dcat,11,info@open.zh.ch
+bildungsstatistik-kanton-zuerich,dcat,64,info@open.zh.ch
+bundesamt-fur-kommunikation-bakom,dcat,90,matthias.braendli@bakom.admin.ch nick.eichmann@bakom.admin.ch patrick.heer@bakom.admin.ch
+bundesamt-fur-landwirtschaft-blw,dcat,130,i14y@bfs.admin.ch
+bundesamt-fur-statistik-bfs,dcat,1470,OGD@bfs.admin.ch
+bundesamt-fur-umwelt-bafu,dcat,315,i14y@bfs.admin.ch
+digitale_medien_der_armee_dma,dcat,31,opendata@bfs.admin.ch
+ekz,dcat,7,laure.stadler@statistik.ji.zh.ch
+elcom,dcat,48,opendata@bfs.admin.ch
+envidat,dcat,8278,envidat@wsl.ch
+fachstelle-ogd-kanton-zuerich,dcat,465,info@open.zh.ch
+finanzverwaltung-kanton-zuerich,dcat,8,info@open.zh.ch
+gesundheitsdirektion-kanton-zuerich,dcat,132,info@open.zh.ch
+identitas,dcat,1136,opendata@bfs.admin.ch
+kanton-basel-landschaft,dcat,2844,ogd@bl.ch
+kanton-basel-stadt,dcat,9059,opendata@bfs.admin.ch
+kanton-st-gallen,dcat,595,statistik@sg.ch opendata@stadt.sg.ch
+kanton-thurgau,dcat,23104,bernd.hebel@tg.ch daniela.koller@tg.ch felix.lorenz@tg.ch ogd@tg.ch
+kof-konjunkturforschungsstelle,dcat,91,opendata@bfs.admin.ch
+oevch,dcat,4362,OpenData@sbb.ch
+personalamt-kanton-zuerich,dcat,48,info@open.zh.ch
+schweizerische-bundesbahnen-sbb,dcat,2682,geoinformation@bfe.admin.ch data@sbb.ch
+schweizerisches-bundesarchiv-bar,dcat,25,Marco.Majoleth@bar.admin.ch
+ssd,dcat,2066,opendata@bfs.admin.ch
+staatskanzlei-glarus,dcat,71,opendata@bfs.admin.ch
+staatskanzlei-kanton-zuerich,dcat,16,info@open.zh.ch
+staatskanzlei-zug,dcat,988,konrad.roelz@zg.ch info@seantis.ch andreas.fuchs@zg.ch philipp.ernst@zg.ch
+stadt-st-gallen,dcat,3405,opendata.stadt.sg.ch opendata@stadt.sg.ch
+stadt-uster,dcat,44,Kultursekretariat@Uster.ch quartier@uster.ch kindheit@uster.ch
+standeskanzlei-graubuenden,dcat,181,opendata@bfs.admin.ch
+statistisches-amt-kanton-zuerich,dcat,3275,info@open.zh.ch
+tiefbauamt-kanton-zuerich,dcat,11,info@open.zh.ch
