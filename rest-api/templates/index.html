@@ -300,26 +300,49 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>/status</td>
-                    <td>Return the status of the latest data audit.</td>
+                    <td>
+                        /data-loader/status</br>
+                        /status (legacy)</td>
+                    <td>Shows the status of the most recent data audit performed by the data-loader.</td>
                     <td class="code-sample"><pre>
 {
     "status": "OK",
     "message": "",
     "last_update": "13.03.2025",
     "last_update_ok": "13.03.2025",
-    "version": 0.7,
-    "version_last_update": "13.03.2025"
 }                     </pre>
                     </td>
                 </tr>
                 <tr>
-                    <td>/version</td>
-                    <td>Return the current data-updater version.</td>
+                    <td>
+                        /data-loader/version</br>
+                        /version (legacy)
+                    </td>
+                    <td>Return the current data-loader version.</td>
                     <td class="code-sample"><pre>
 {
     "version": 0.7,
-    "version_last_update": "13.03.2025"
+    "version_last_update": "03.09.2025"
+}                     </pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>/api/version</td>
+                    <td>Return the current api version.</td>
+                    <td class="code-sample"><pre>
+{
+    "version": 1.0,
+    "version_last_update": "03.09.2025"
+}                     </pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>/api/status</td>
+                    <td>Return the status of the api.</td>
+                    <td class="code-sample"><pre>
+{
+    "status": "OK",
+    "last_update": "03.09.2025"
 }                     </pre>
                     </td>
                 </tr>

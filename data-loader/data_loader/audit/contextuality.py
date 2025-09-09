@@ -1,4 +1,4 @@
-import data_updater.audit.utils as au
+import data_loader.audit.utils as au
 
 
 # dcat:CatalogRecord properties.

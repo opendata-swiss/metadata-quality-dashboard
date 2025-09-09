@@ -1,9 +1,9 @@
-import data_updater.audit.utils as au
-from data_updater.audit.scoring import interoperability_score
-from data_updater.vocabulary.eu_vocab_non_proprietary import NON_PROPRIETARY_VOCABULARY
-from data_updater.vocabulary.eu_vocab_machine_readable import MACHINE_READABLE_VOCABULARY
-from data_updater.vocabulary.eu_vocab_file_type import FILE_TYPE_VOCABULARY
-from data_updater.vocabulary.iana_media_types import MEDIA_TYPE_VOCABULARY
+import data_loader.audit.utils as au
+from data_loader.audit.scoring import interoperability_score
+from data_loader.vocabulary.eu_vocab_non_proprietary import NON_PROPRIETARY_VOCABULARY
+from data_loader.vocabulary.eu_vocab_machine_readable import MACHINE_READABLE_VOCABULARY
+from data_loader.vocabulary.eu_vocab_file_type import FILE_TYPE_VOCABULARY
+from data_loader.vocabulary.iana_media_types import MEDIA_TYPE_VOCABULARY
 
 
 FORMAT = "http://purl.org/dc/terms/format"

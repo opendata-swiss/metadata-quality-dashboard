@@ -1,4 +1,4 @@
-from data_updater.audit.utils import is_defined
+from data_loader.audit.utils import is_defined
 
 
 # dcat:Dataset properties.

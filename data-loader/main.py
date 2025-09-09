@@ -8,16 +8,16 @@ import urllib3
 from datetime import datetime
 from pathlib import Path
 
-from data_updater.api import opendata_catalog_jsonld as cat
-from data_updater.api import opendata_ckan as ckan
-from data_updater.audit import (
+from data_loader.api import opendata_catalog_jsonld as cat
+from data_loader.api import opendata_ckan as ckan
+from data_loader.audit import (
     audit_datasets,
     score_total,
     score_organisations,
     score_datasets,
 )
-import data_updater.config as c
-from data_updater.utils import save_json, load_json
+import data_loader.config as c
+from data_loader.utils import save_json, load_json
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 logging.basicConfig(format="%(asctime)s %(levelname)s: %(message)s", level=logging.INFO, datefmt="%H:%M:%S")  # fmt: skip

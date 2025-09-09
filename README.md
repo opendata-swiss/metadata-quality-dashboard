@@ -29,8 +29,8 @@ The system was developed to address inconsistencies in open data metadata and en
 
 ## Technologies
 * Python 3.9.7 – For dependencies, read the per-project requirements.txt files.
-    * [data-loader/requirement.txt](./data-updater/requirements.txt)
-    * [rest-api/requirement.txt](./data-updater/requirements.txt)
+    * [data-loader/requirement.txt](./data-loader/requirements.txt)
+    * [rest-api/requirement.txt](./data-loader/requirements.txt)
 * Docker – Containerization to isolate and deploy each sub-project consistently.
 * Git + Bitbucket – Source control and hosting
 
@@ -44,6 +44,6 @@ This project is licensed under the MIT terms. See the [LICENSE](LICENSE) file in
 ## Author and Acknowledgements
 All code in this repository was developed by **Florian Emmanuel Fasmeyer**.
 
-Special thanks to **Vu Kim Lan** and **Maik Roth** from the **OGD team** for initiating and supporting the project as part of the **Masterplan OGD 2024–2027**.
+Special thanks to **Vu Kim Lan**, **Michèle Spichtig** and **Maik Roth** from the **OGD team** for initiating and supporting the project as part of the **Masterplan OGD 2024–2027**.
 
 Appreciation goes to the **PUB/WEB team**—including **Thomas-Christian Schwander**—for building the Metadata Quality Dashboard using data provided by the API developed in this project. Additional thanks to the **PUB/VIZ team**, including **Max Henking**, **Ludivine Stofer**, and **Nicolas Ruetschi**, who created visualizations based on this data.

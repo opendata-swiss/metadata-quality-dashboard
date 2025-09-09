@@ -1,5 +1,5 @@
 from xml.etree import ElementTree as ET
-from data_updater.utils import save_json
+from data_loader.utils import save_json
 
 
 TAG = r"{http://www.w3.org/2004/02/skos/core#}Concept"

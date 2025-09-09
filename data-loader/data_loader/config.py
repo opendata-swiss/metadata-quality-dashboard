@@ -2,8 +2,8 @@ import os
 from pathlib import Path
 
 # Versioning.
-VERSION = 0.8
-VERSION_DATE = "16.07.2025"
+VERSION = 1.0
+VERSION_DATE = "03.09.2025"
 
 # Environment Variables keys.
 ENV_AUDIT_DEV = "AUDIT_DEV"
