@@ -82,7 +82,7 @@ def save_status(file: Path, _status: str, error_message: str = "") -> None:
         last_ok = "Never"
 
     status = dict(
-        status="OK" if _status else "ERROR",
+        status=_status,
         message=error_message,
         last_update=now,
         last_update_ok=last_ok,
