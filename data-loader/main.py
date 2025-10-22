@@ -110,6 +110,7 @@ def ensure_output_files_exist():
         c.OUTPUT_STATUS,
     ]:
         path.touch()
+        path.write_text("{}")
         logger.debug(f"Ensured file exists: {path}")
 
 
