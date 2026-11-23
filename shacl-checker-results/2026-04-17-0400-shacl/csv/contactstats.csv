@@ -1,0 +1,55 @@
+organization_name,pkg_type,error_count,contact_emails
+afm-kanton-zuerich,dcat,11,info@open.zh.ch
+are-kanton-zuerich,dcat,97,info@open.zh.ch
+awel-kanton-zuerich,dcat,597,info@open.zh.ch
+bildungsstatistik-kanton-zuerich,dcat,75,info@open.zh.ch
+bkb,dcat,39,opendata@bfs.admin.ch
+bundesamt-fur-energie-bfe,dcat,27,i14y@bfs.admin.ch
+bundesamt-fur-kommunikation-bakom,dcat,975,matthias.braendli@bakom.admin.ch patrick.heer@bakom.admin.ch nick.eichmann@bakom.admin.ch
+bundesamt-fur-landwirtschaft-blw,dcat,584,pascal.hurni@blw.admin.ch i14y@bfs.admin.ch daniela.hostettler@blw.admin.ch lea.stauber@blw.admin.ch
+bundesamt-fur-statistik-bfs,dcat,354,OGD@bfs.admin.ch
+bundesamt-fur-umwelt-bafu,dcat,1464,nico.rohrbach@bafu.admin.ch i14y@bfs.admin.ch Veronique.Ortner@bafu.admin.ch Sabine.Zeller@bafu.admin.ch
+bundesamt-fur-zivildienst-zivi,dcat,14,opendata@bfs.admin.ch
+dienst-ueberwachung-post-und-fernmeldeverkehr-uepf,dcat,51,opendata@bfs.admin.ch
+digitale_medien_der_armee_dma,dcat,124,thomas.schneiter@lambda-it.ch edi.spring@lambda-it.ch stefan.fluekiger@vtg.admin.ch wayne.maurer@lambda-it.ch
+eidgenoessische_zollverwaltung_ezv,dcat,462,opendata@bfs.admin.ch
+eidgenossische-finanzverwaltung-efv,dcat,22,i14y@bfs.admin.ch
+ekz,dcat,5,laure.stadler@statistik.ji.zh.ch
+elcom,dcat,48,opendata@bfs.admin.ch
+envidat,dcat,4400,envidat@wsl.ch
+fachstelle-ogd-kanton-zuerich,dcat,335,info@open.zh.ch
+finanzverwaltung-kanton-zuerich,dcat,7,info@open.zh.ch
+fondation-modus,dcat,7,opendata@bfs.admin.ch
+gemeindeamt-kanton-zuerich,dcat,7,info@open.zh.ch
+gesundheitsdirektion-kanton-zuerich,dcat,193,info@open.zh.ch
+handelsregisteramt-kanton-zuerich,dcat,19,info@open.zh.ch
+identitas,dcat,2272,kosuke.ueda@identitas.ch ulla.heikkilae@identitas.ch
+ima-kanton-zuerich,dcat,7,info@open.zh.ch
+kanton-basel-landschaft,dcat,1383,ogd@bl.ch roman.meyer@bl.ch marc.battaglia@bl.ch
+kanton-basel-stadt,dcat,1494,jonas.eckenfels@bs.ch jonas.bieri@bs.ch Boris.Djakovic@bs.ch
+kanton-bern-2,dcat,162,i14y@bfs.admin.ch
+kanton-st-gallen,dcat,48,erich.gollino@stadt.sg.ch nicola.wullschleger@stadt.sg.ch simon.knuesel@sg.ch
+kanton-thurgau,dcat,4,daniela.koller@tg.ch bernd.hebel@tg.ch felix.lorenz@tg.ch ogd@tg.ch
+kantonspolizei-kanton-zuerich,dcat,64,info@open.zh.ch
+lustat,dcat,92,i14y@bfs.admin.ch
+oberjugendanwaltschaft-kanton-zuerich,dcat,39,info@open.zh.ch
+oevch,dcat,742,OpenData@sbb.ch
+personalamt-kanton-zuerich,dcat,47,info@open.zh.ch
+sbfi,dcat,5,opendata@bfs.admin.ch
+schweizerische-bundesbahnen-sbb,dcat,41,christian.trachsel@sbb.ch
+schweizerische-nationalbibliothek-nb,dcat,18,i14y@bfs.admin.ch
+schweizerisches-bundesarchiv-bar,dcat,25,Marco.Majoleth@bar.admin.ch
+staatsarchiv-kanton-zuerich,dcat,102,info@open.zh.ch
+staatskanzlei-glarus,dcat,71,martin.jenny@gl.ch
+staatskanzlei-kanton-zuerich,dcat,12,info@open.zh.ch
+staatskanzlei-zug,dcat,1036,info@seantis.ch philipp.ernst@zg.ch konrad.roelz@zg.ch andreas.fuchs@zg.ch
+stadt-st-gallen,dcat,548,erich.gollino@stadt.sg.ch nicola.wullschleger@stadt.sg.ch simon.knuesel@sg.ch ogd@stadt.sg.ch
+stadt-uster,dcat,39,laure.stadler@statistik.ji.zh.ch
+stadt-winterthur,dcat,423,laure.stadler@statistik.ji.zh.ch
+stadt-zurich,dcat,8948,alexander.guentert@zuerich.ch opendata@zuerich.ch
+standeskanzlei-graubuenden,dcat,190,thomas.hardegger@staka.gr.ch
+statistisches-amt-kanton-zuerich,dcat,2650,info@open.zh.ch
+swiss-emobility,dcat,14,i14y@bfs.admin.ch
+swissmedic,dcat,28,i14y@bfs.admin.ch
+tiefbauamt-kanton-zuerich,dcat,47,info@open.zh.ch
+volksschulamt-kanton-zuerich,dcat,7,info@open.zh.ch

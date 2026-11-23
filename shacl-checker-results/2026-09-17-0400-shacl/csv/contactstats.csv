@@ -1,0 +1,37 @@
+organization_name,pkg_type,error_count,contact_emails
+agroscope,dcat,8,opendata@bfs.admin.ch
+awel-kanton-zuerich,dcat,389,info@open.zh.ch
+bildungsstatistik-kanton-zuerich,dcat,46,info@open.zh.ch
+bundesamt-fur-energie-bfe,dcat,1,i14y@bfs.admin.ch
+bundesamt-fur-kommunikation-bakom,dcat,207,patrick.heer@bakom.admin.ch matthias.braendli@bakom.admin.ch nick.eichmann@bakom.admin.ch
+bundesamt-fur-landwirtschaft-blw,dcat,584,i14y@bfs.admin.ch pascal.hurni@blw.admin.ch daniela.hostettler@blw.admin.ch lea.stauber@blw.admin.ch
+bundesamt-fur-statistik-bfs,dcat,138,OGD@bfs.admin.ch
+bundesamt-fur-umwelt-bafu,dcat,104,Sabine.Zeller@bafu.admin.ch i14y@bfs.admin.ch nico.rohrbach@bafu.admin.ch Veronique.Ortner@bafu.admin.ch
+dienst-ueberwachung-post-und-fernmeldeverkehr-uepf,dcat,33,opendata@bfs.admin.ch
+digitale_medien_der_armee_dma,dcat,124,stefan.fluekiger@vtg.admin.ch edi.spring@lambda-it.ch thomas.schneiter@lambda-it.ch wayne.maurer@lambda-it.ch
+direktion-fur-entwicklung-und-zusammenarbeit-deza,dcat,12,opendata@bfs.admin.ch
+eidgenoessische_zollverwaltung_ezv,dcat,28,opendata@bfs.admin.ch
+eidgenossische-finanzverwaltung-efv,dcat,8,i14y@bfs.admin.ch
+elcom,dcat,48,opendata@bfs.admin.ch
+fachstelle-ogd-kanton-zuerich,dcat,69,info@open.zh.ch
+finanzverwaltung-kanton-zuerich,dcat,7,info@open.zh.ch
+fondation-modus,dcat,7,opendata@bfs.admin.ch
+gesundheitsdirektion-kanton-zuerich,dcat,51,info@open.zh.ch
+identitas,dcat,888,ulla.heikkilae@identitas.ch kosuke.ueda@identitas.ch
+kanton-basel-stadt,dcat,264,jonas.eckenfels@bs.ch Boris.Djakovic@bs.ch jonas.bieri@bs.ch
+kanton-bern-2,dcat,63,i14y@bfs.admin.ch
+kanton-st-gallen,dcat,9,erich.gollino@stadt.sg.ch nicola.wullschleger@stadt.sg.ch simon.knuesel@sg.ch
+kantonspolizei-kanton-zuerich,dcat,69,info@open.zh.ch
+materialscloud,dcat,1629,giovanni.pizzi@psi.ch
+oevch,dcat,193,OpenData@sbb.ch
+psi_data_catalog,dcat,2,carlo.minotti@psi.ch
+schweizerische-bundesbahnen-sbb,dcat,6,christian.trachsel@sbb.ch
+schweizerisches-bundesarchiv-bar,dcat,25,Marco.Majoleth@bar.admin.ch
+staatskanzlei-glarus,dcat,1,martin.jenny@gl.ch
+staatskanzlei-zug,dcat,48,konrad.roelz@zg.ch andreas.fuchs@zg.ch philipp.ernst@zg.ch info@seantis.ch
+stadt-st-gallen,dcat,180,erich.gollino@stadt.sg.ch ogd@stadt.sg.ch nicola.wullschleger@stadt.sg.ch simon.knuesel@sg.ch
+stadt-winterthur,dcat,78,laure.stadler@statistik.ji.zh.ch
+stadt-zurich,dcat,924,alexander.guentert@zuerich.ch opendata@zuerich.ch
+standeskanzlei-graubuenden,dcat,34,thomas.hardegger@staka.gr.ch
+statistisches-amt-kanton-zuerich,dcat,435,info@open.zh.ch
+swissmedic,dcat,26,i14y@bfs.admin.ch
